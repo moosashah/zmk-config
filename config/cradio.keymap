@@ -77,7 +77,7 @@ behaviors {
        		default_layer {
 		bindings = <
 		&kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
-		&kp A &hm LALT S &hm LCTRL D &hm LGUI F &kp G 			        	        &kp H &hm RGUI J &hm RCTRL K &hm RALT L &kp QUOT
+		&kp A &hm LALT S &hm LCTRL D &hm LGUI F &kp G 	    &kp H &hm RGUI J &hm RCTRL K &hm RALT L &kp QUOT
 		&kp Z &kp X &kp C &kp V &kp B				        &kp N &kp M  &kp CMMA &kp DOT &kp FSLH
           				&mo 1 &kp LCTL  				&kp SPC &mo 2 
 		>;
