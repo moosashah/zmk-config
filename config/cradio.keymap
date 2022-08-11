@@ -21,8 +21,8 @@
    	default_layer {
 		bindings = <
 		&kp Q &kp W &kp E &kp R &kp T 						                      &kp Y &kp U  &kp I  &kp O &kp P
-		&mt LS(LC(LA(LCMD))) A &mt LALT S &mt LCTRL D &mt LCMD F &kp G  &kp H &mt RCMD J &mt RCTRL K &mt RALT L &mt RS(RA(RC(RCMD))) SEMI
-		&kp Z &kp X &kp C &kp V &kp B				                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH
+		&kp A &mt LALT S &mt LCTRL D &mt LCMD F &kp G  &kp H &mt RCMD J &mt RCTRL K &mt RALT L &kp SEMI
+		&mt LS(LC(LA(LCMD))) Z &kp X &kp C &kp V &kp B				                            &kp N &kp M  &kp CMMA &kp DOT &mt RS(RA(RC(RCMD))) FSLH
           				&lt FUNC BSPC  &mt LSFT SPC  				                        &lt NUM RET &lt SYMB ESC
 		>;
 		};
@@ -30,8 +30,8 @@
     num_layer {
 		bindings = <
 		&none   &none   &none   &kp KP_SLASH   &none	                   &kp SEMI &kp N7 &kp N8 &kp N9  &none
-		&mt LS(LC(LA(LCMD))) TAB   &kp LALT  &kp LCTRL &mt LCMD EQUAL    &none 	&kp APOS &kp N4  &kp N5 &kp N6  &kp N0
-		&none &none	&none  &kp MINUS &none                             	&kp KP_DOT &kp N1 &kp N2 &kp N3  &none
+		&kp TAB   &kp LALT  &kp LCTRL &mt LCMD EQUAL    &none 	&kp APOS &kp N4  &kp N5 &kp N6  &kp N0
+		&kp LS(LC(LA(LCMD))) &none	&none  &kp MINUS &none                             	&kp KP_DOT &kp N1 &kp N2 &kp N3  &none
 					    &kp BSPC  &mt LSFT SPC   					                        &trans  &none
 		>;
 		};
@@ -39,7 +39,7 @@
 		symb_layer {
 		bindings = <
 		&none   &none   &none   &none   &none    			                                  &kp BSLH  &kp GRAVE &kp DOLLAR &none &none 
-		&mt LS(LC(LA(LCMD))) TAB  &kp LALT &kp  LCTRL &kp LCMD  &none 			            &kp MINUS &kp LBKT  &kp LPAR  &kp LT   &none
+		&kp TAB  &kp LALT &kp  LCTRL &kp LCMD  &none 			            &kp MINUS &kp LBKT  &kp LPAR  &kp LT   &none
 		&none   &none   &none   &none   &none     			                               &kp EQUAL &kp RBKT &kp RPAR &kp GT  &none
 					  &kp BSPC  &mt LSFT SPC  				                                    &none &trans
 		>;
@@ -47,9 +47,9 @@
 		
 		func_layer {
 		bindings = <
-		&kp CAPS  &kp C_BRI_INC  &kp C_VOL_UP &kp C_NEXT &none 			                    &kp F1 &kp F2  &kp F3  &kp F4  &kp F5
-		&mt LS(LS(LA(LCMD))) TAB &kp LALT &mt LCTRL K_MUTE &mt LCMD C_PLAY_PAUSE &none  			&kp LEFT &kp DOWN  &kp UP &kp RIGHT &trans 
-		&kp LSFT  &kp C_BRI_DEC &kp C_VOL_DN &kp C_PREV &none   				                    &trans &kp RS(RC(RG(KP_NUMBER_4)))  &kp RS(RG(KP_NUMBER_4))  &trans &trans   
+		&trans  &kp C_BRI_INC  &kp C_VOL_UP &kp C_NEXT &none 			                    &kp F1 &kp F2  &kp F3  &kp F4  &kp F5
+		&mt LSFT TAB &kp LALT &mt LCTRL K_MUTE &mt LCMD C_PLAY_PAUSE &none  			&kp LEFT &kp DOWN  &kp UP &kp RIGHT &trans 
+		&trans  &kp C_BRI_DEC &kp C_VOL_DN &kp C_PREV &none   				                    &trans &kp RS(RC(RG(N4)))  &kp RS(RG(N4))  &trans &trans   
 					 &trans &none  					                                             &kp RET &kp ESC
 		>;
 		};	
