@@ -14,7 +14,9 @@
    tapping_term_ms = <150>;
 };
 
-&out OUT_BLE
+&out {
+  flavour = OUT_BLE
+};
 
 / { 
 
