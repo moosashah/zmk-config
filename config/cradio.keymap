@@ -15,7 +15,7 @@
 };
 
 &out {
-  flavour = OUT_BLE
+  OUT_BLE
 };
 
 / { 
