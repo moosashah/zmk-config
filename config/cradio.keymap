@@ -38,16 +38,16 @@
 		
 		symb_layer {
 		bindings = <
-		&none   &none   &none   &none   &none    			           &kp BSLH  &kp GRAVE &kp DOLLAR &none &none 
-		&kp TAB  &kp LALT &kp  LCTRL &kp LCMD  &none 			       &kp MINUS &kp LBKT  &kp LPAR  &kp LT   &none
-		&kp LS(LC(LA(LCMD))) &none   &none   &none   &none     	 &kp EQUAL &kp RBKT &kp RPAR &kp GT &kp LS(LC(LA(LCMD))) 
+		&none   &none   &none   &none   &none    			           &none  &kp GRAVE &kp DOLLAR &none &kp BSLH
+		&kp TAB  &kp LALT &kp  LCTRL &kp LCMD  &none 			       &none &kp LBKT  &kp LPAR  &kp LT &kp MINUS
+		&kp LS(LC(LA(LCMD))) &none   &none   &none   &none     	 &none &kp RBKT &kp RPAR &kp GT &mt LS(LC(LA(LCMD))) EQUAL
 					  &kp BSPC  &mt LSFT SPC  				                            &none &trans
 		>;
 		};	
 		
 		func_layer {
 		bindings = <
-		&trans  &kp C_BRI_INC  &kp C_VOL_UP &kp C_NEXT &none 			          &kp F1 &kp F2  &kp F3  &kp F4  &kp F5
+		&trans  &kp C_BRI_INC  &kp C_VOL_UP &kp C_NEXT &none 			          &none &none &none &none &none 
 		&mt LSFT TAB &kp LALT &mt LCTRL K_MUTE &mt LCMD C_PLAY_PAUSE &none  &kp LEFT &kp DOWN  &kp UP &kp RIGHT &trans 
 		&trans  &kp C_BRI_DEC &kp C_VOL_DN &kp C_PREV &none   				      &trans &kp RS(RC(RG(N4)))  &kp RS(RG(N4))  &trans &trans   
 					 &trans &none  					                                             &kp RET &kp ESC
